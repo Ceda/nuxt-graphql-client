@@ -44,7 +44,7 @@ export default defineNuxtModule<GqlConfig>({
 
     const codegenDefaults: GqlCodegen = {
       silent: true,
-      skipTypename: true,
+      skipTypename: false,
       useTypeImports: true,
       dedupeFragments: true,
       disableOnBuild: false,
